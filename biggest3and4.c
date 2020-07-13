@@ -2,7 +2,7 @@
 int main()
 {
     int a,b,c,d;
-    scanf("%d%d%d",&a,&b,&c);
+    scanf("%dd%d",&a,&b,&c);
     if(a>b)
     {
         if(a>c)
@@ -26,7 +26,7 @@ int main()
 
     int w,x,y,z;
     scanf("%d%d%d%d",&w,&x,&y,&z);
-    if((w>x)&(w>y)&(w>z))
+    if((q>x)&(w>y)&(w>z))
     {
         printf("biggest number is %d",w);
     }
